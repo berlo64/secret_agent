@@ -1,0 +1,12 @@
+html, body {
+  font-size: 18px;
+}
+
+/* SITE CONTENT */
+
+.logo,
+.navigation nav,
+.content,
+.footer {
+  width: 960px;
+}
