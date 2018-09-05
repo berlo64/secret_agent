@@ -1,12 +1,45 @@
+/* General style */
+
 html, body {
   font-size: 18px;
 }
 
-/* SITE CONTENT */
+h1, h2 {
+  font-family: Helvetica sans-serif;
+}
 
-.logo,
-.navigation nav,
-.content,
-.footer {
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+.site-container {
   width: 960px;
+  margin: 0 auto;
+}
+
+.flex-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* Header style*/
+
+.header {
+  background-color: #000000;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+}
+
+.logo h2 {
+  color: #FFFFFF;
+  margin: 0.66rem 0;
 }
