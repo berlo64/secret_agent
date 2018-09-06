@@ -5,7 +5,7 @@ html, body {
 }
 
 h1, h2 {
-  font-family: Helvetica sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 h1 {
@@ -27,11 +27,14 @@ h2 {
   align-items: center;
 }
 
-/* Header style*/
-
-.header {
+.header,
+.banner h1,
+.banner h2 {
   background-color: #000000;
+  color: #FFFFFF;
 }
+
+/* Header style*/
 
 .logo img {
   height: 1.5rem;
@@ -40,6 +43,29 @@ h2 {
 }
 
 .logo h2 {
-  color: #FFFFFF;
   margin: 0.66rem 0;
+}
+
+/* Main banner style*/
+
+.main-banner {
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+}
+
+.banner h1,
+.banner h2 {
+  position: relative;
+  top: 9rem;
+  font-weight: bold;
+  width: 20rem;
+}
+
+.banner h1 {
+  padding: 0.25rem 3rem 2rem 3rem;
+}
+
+.banner h2 {
+  padding: 2rem 3rem 0.25rem 3rem;
 }
