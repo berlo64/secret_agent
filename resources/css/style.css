@@ -25,6 +25,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
 }
 
 .header,
@@ -35,6 +36,10 @@ h2 {
 }
 
 /* Header style*/
+
+.logo {
+  justify-content: flex-start;
+}
 
 .logo img {
   height: 1.5rem;
@@ -69,3 +74,16 @@ h2 {
 .banner h2 {
   padding: 2rem 3rem 0.25rem 3rem;
 }
+
+/* Navigation menu style*/
+
+.navigation {
+  background-color: #B22222;
+}
+
+nav h4 {
+  color: #FFFFFF;
+  margin: 0.75rem 0;
+}
+
+/* Product grid style*/
