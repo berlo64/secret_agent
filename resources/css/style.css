@@ -17,7 +17,9 @@ h2 {
 }
 
 .site-container {
-  width: 960px;
+  flex-basis: 960px;
+  flex-grow: 0;
+  max-width: 960px;
   margin: 0 auto;
 }
 
@@ -141,4 +143,30 @@ nav h4 {
 
 .footer {
   height: 5rem;
+}
+
+/* Tablet portrait orientation style*/
+
+@media only screen and (min-width: 1024px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .desktop {
+    display: none;
+  }
+
+  .navigation h4 {
+    margin: 0.75rem auto;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
 }
