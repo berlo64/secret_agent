@@ -148,12 +148,18 @@ nav h4 {
 /* Tablet portrait orientation style*/
 
 @media only screen and (min-width: 1024px) {
+
+  /* Navigation menu style*/
+
   .mobile {
     display: none;
   }
 }
 
 @media only screen and (max-width: 1024px) {
+
+  /* Navigation menu style*/
+
   .desktop {
     display: none;
   }
@@ -168,5 +174,90 @@ nav h4 {
 
   .product.glasses {
     display: none;
+  }
+}
+
+/* Smartphone style*/
+
+@media only screen and (max-width: 470px) {
+
+  /* General style */
+
+  .site-container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-size: 0.77rem;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  /* Header style */
+
+  .logo {
+    justify-content: center;
+  }
+
+  .logo img {
+    margin: 1rem auto;
+  }
+
+  .logo h2 {
+    display: none;
+  }
+
+  /* Main banner style*/
+
+  .main-banner {
+    height: 15rem;
+  }
+
+  .banner h1,
+  .banner h2 {
+    position: relative;
+    top: 10rem;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .banner h1 {
+    padding: 0.12rem 0 1rem 2rem;
+  }
+
+  .banner h2 {
+    padding: 1rem 0 0.12rem 2rem;
+  }
+
+  /* Product grid style*/
+
+  .product,
+  .location,
+  .hours,
+  .footer h4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .location {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Footer style*/
+
+  .footer h4{
+    text-align: center;
+    font-size: 0.7rem;
   }
 }
